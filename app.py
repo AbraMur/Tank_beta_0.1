@@ -28,7 +28,7 @@ class App(object):
 
         self.bullets = []  # список выпущенных снарядов
 
-    def update(self, dt):
+    def update(self, dt):  # метод
         for obj in self.objects:
             obj.update(dt)
         for bull in self.bullets:
